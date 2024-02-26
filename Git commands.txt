@@ -1,0 +1,9 @@
+git init: Initializes .git/git repository for current directory
+git status: Displays current git status
+git log: Displays all commits
+
+git add <file(s)>: Stages file(s) for next commit
+git commit -m <"commit message">: Creates a commit that includes all staged changes with input commit message
+git push: Pushes all new local commits to remote repository
+
+git checkout <id>: Temporarily move to another commit/branch
