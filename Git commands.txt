@@ -13,4 +13,8 @@ git revert <id>: Revert changes of commit by creating a new commit (with changes
 git reset: undo current commits
 git reset --hard <id>: Undo changes by deleting all commits since <id>
 
+git branch <name>: Splits off a new branch
+git checkout <branch name>: Move to different branch
+git merge <branch name>: Merges commits of current branch with specifed branch
+
 .gitignore: Special file that tells git to not stage all files and directorys listed
