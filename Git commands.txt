@@ -40,7 +40,8 @@ git branch -D <branch name>: Deletes specifed branch
 README.md: Special file that is displayed on the remote repository page (uses Markdown)
 
 Github:
-Settings->Branches->Branch protection rules-> ex. Require a pull request before merging -> require approvals
+Settings->Branches->Branch protection rules-> Rule name = branch name -> ex. Require a pull request before merging -> require approvals
 
 Colllaborators:
 Add Colllaborators to Repository, Give then limited repo access Personal Access Keys
+Pull requests -> Create pull request (base: branch we want to merge changes into, compare: branch we want to merge changes from) -> Create pull request -> Link Issue # in Description -> Request Reviewers
