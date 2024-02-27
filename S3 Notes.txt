@@ -36,3 +36,13 @@ https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
     2. repository_dispatch: REST API request triggers workflow
     3. schedule: Workflow is scheduled
     4. workflow_call: Can be called by other workflows
+
+Actions:
+Command ("run"): A (typically simple) shell command that's defined by you
+vs
+Action ("uses"): A (custom) application that performs a (typically complex) frequently repeated task
+    - You can build your own Actions but you can also use official or community Actions
+    - Can further specify using 'with' keyword
+
+    Actions ("actions/...@v3")
+    1. actions/checkout (https://github.com/actions/checkout)
