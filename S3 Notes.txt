@@ -1,0 +1,19 @@
+Section 3: GitHub Actions - Basic Building Blocks & Components
+Code Repository -> Workflows -> Jobs -> Steps
+
+Workflows:
+1. Attached to GitHub repository
+2. Contains one or more Jobs
+3. Triggered upon Events
+
+Jobs:
+1. Define a Runner (execution environment)
+2. Contain one or more Steps
+3. Run in parallel (default) or sequential
+4. Can be conditional
+
+Steps:
+1. Execute a shell script or an Action
+2. Can use custom or third-party actions
+3. Steps are executed in order
+4. Can be conditional
