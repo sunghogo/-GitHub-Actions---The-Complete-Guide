@@ -3,6 +3,8 @@ git status: Displays current git status
 git log: Displays all commits
 
 git add <file(s)>: Stages file(s) for next commit
+git add <directory>: Stages all files inside directory
+git add ./*/--all: Stages all files in project
 git commit -m <"commit message">: Creates a commit that includes all staged changes with input commit message
 git push: Pushes all new local commits to remote repository
 
@@ -10,3 +12,5 @@ git checkout <id>: Temporarily move to another commit/branch
 git revert <id>: Revert changes of commit by creating a new commit (with changes to undo the specified commit)
 git reset: undo current commits
 git reset --hard <id>: Undo changes by deleting all commits since <id>
+
+.gitignore: Special file that tells git to not stage all files and directorys listed
