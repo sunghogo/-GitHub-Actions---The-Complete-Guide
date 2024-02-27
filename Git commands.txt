@@ -6,6 +6,7 @@ git remote add <local name/'origin'> <remote repository HTTPS link>: Names local
 git push --set-upstream <local repository name/'origin'> <remote repository branch>: Sets up continuous pushing from local repository to linked remote repository
 git push <local repository name/'origin'> <remote repository branch>: One time push from local repository to linked remote repository
 git remote set-url <local repo name/'origin'> <remote repo link but with 'username@' right before github.com to specify user>: Sets up username permission to access remote repo. Prompts Personal Access Tokens from GitHub settings->Developer Settings->Personal access tokens->set name, duration, and check all repo settings
+git pull: Pulls all commits to local repository from latest version of remote repository
 
 git submodule add <submodule remote repository HTTPS link> <submodule directory name>: Creates a submodule directory and links it to specified remote repository
 git submodule init: Initializes the submodules
@@ -31,3 +32,4 @@ git branch -D <branch name>: Deletes specifed branch
 
 
 .gitignore: Special file that tells git to not stage all files and directorys listed
+README.md: Special file that is displayed on the remote repository page (uses Markdown)
