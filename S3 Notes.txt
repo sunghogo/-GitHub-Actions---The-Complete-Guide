@@ -17,3 +17,22 @@ Steps:
 2. Can use custom or third-party actions
 3. Steps are executed in order
 4. Can be conditional
+
+Events (Workflow Triggers):
+https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
+    Repository-Related
+    1. push: Pushing a commit
+    2. pull_request: Pull request action (opened, closed, ...)
+    3. create: A branch or rag was created
+    4. fork: Repository was forked
+    5. issues: An issue waso pened, deleted, ...
+    6. issue_comment: Issue or pull request comment action
+    7. watch: Repository was starred
+    8. discussion: Discussion action (created, delted, ...)
+    etc...
+
+    Other
+    1. workflow_dispatch: Manually trigger workflow
+    2. repository_dispatch: REST API request triggers workflow
+    3. schedule: Workflow is scheduled
+    4. workflow_call: Can be called by other workflows
