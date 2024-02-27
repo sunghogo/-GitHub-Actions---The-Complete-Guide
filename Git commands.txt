@@ -2,6 +2,15 @@ git init: Initializes .git/git repository for current directory
 git status: Displays current git status
 git log: Displays all commits
 
+git remote add <local name/'origin'> <remote repository HTTPS link>: Names local repository and links it to remote repository link
+git push --set-upstream <local repository name/'origin'> <remote repository branch>: Sets up continuous pushing from local repository to linked remote repository
+git push <local repository name/'origin'> <remote repository branch>: One time push from local repository to linked remote repository
+git remote set-url <local repo name/'origin'> <remote repo link but with 'username@' right before github.com to specify user>: Sets up username permission to access remote repo. Prompts Personal Access Tokens from GitHub settings->Developer Settings->Personal access tokens->set name, duration, and check all repo settings
+
+git submodule add <submodule remote repository HTTPS link> <submodule directory name>: Creates a submodule directory and links it to specified remote repository
+git submodule init: Initializes the submodules
+git submodule update: Updates submodule to latest commit on PARENT REPO
+
 git add <file(s)>: Stages file(s) for next commit
 git add <directory>: Stages all files inside directory
 git add ./*/--all: Stages all files in project
