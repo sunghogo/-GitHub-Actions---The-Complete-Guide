@@ -1,0 +1,3 @@
+[submodule "gh-first-action"]
+	path = gh-first-action
+	url = https://github.com/sunghogo/gh-first-action.git
