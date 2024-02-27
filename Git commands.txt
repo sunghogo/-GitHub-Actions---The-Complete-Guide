@@ -7,3 +7,4 @@ git commit -m <"commit message">: Creates a commit that includes all staged chan
 git push: Pushes all new local commits to remote repository
 
 git checkout <id>: Temporarily move to another commit/branch
+git revert <id>: Revert changes of commit by creating a new commit (with changes to undo the specified commit)
