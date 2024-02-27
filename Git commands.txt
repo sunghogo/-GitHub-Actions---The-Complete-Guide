@@ -44,4 +44,7 @@ Settings->Branches->Branch protection rules-> Rule name = branch name -> ex. Req
 
 Colllaborators:
 Add Colllaborators to Repository, Give then limited repo access Personal Access Keys
+
 Pull requests -> Create pull request (base: branch we want to merge changes into, compare: branch we want to merge changes from) -> Create pull request -> Link Issue # in Description -> Request Reviewers
+
+Approved -> Merge allowed? -> If issue is closed, link issue #1 and close Pull Request -> Close Issue
