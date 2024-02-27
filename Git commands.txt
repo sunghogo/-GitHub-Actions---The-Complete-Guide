@@ -17,7 +17,7 @@ git reset --hard <id>: Undo changes by deleting all commits since <id>
 git branch <name>: Splits off a new branch with specified name
 git checkout <branch name>: Move to different branch
 git checkout -b <new branch name>: Creates and moves to new branch
-git merge <branch name>: Merges commits of current branch with specifed branch
+git merge <branch name>: Merges commits of current branch with specifed branch (current branch should be the one behind)
 git branch -D <branch name>: Deletes specifed branch
 
 
