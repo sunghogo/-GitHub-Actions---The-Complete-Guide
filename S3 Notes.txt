@@ -46,3 +46,5 @@ Action ("uses"): A (custom) application that performs a (typically complex) freq
 
     Actions ("actions/...@v3")
     1. actions/checkout (https://github.com/actions/checkout)
+
+https://github.com/actions/runner-images (check dependencies for runner)

@@ -1,3 +1,6 @@
 [submodule "gh-first-action"]
 	path = gh-first-action
 	url = https://github.com/sunghogo/gh-first-action.git
+[submodule "gh-second-action-react-demo"]
+	path = gh-second-action-react-demo
+	url = https://github.com/sunghogo/gh-second-action-react-demo.git
