@@ -48,3 +48,33 @@ Action ("uses"): A (custom) application that performs a (typically complex) freq
     1. actions/checkout (https://github.com/actions/checkout)
 
 https://github.com/actions/runner-images (check dependencies for runner)
+
+Git Credential Manager:
+https://github.com/git-ecosystem/git-credential-manager
+
+Contextx:
+https://docs.github.com/en/actions/learn-github-actions/contexts
+Meta information/context data about event triggers, runners, etc. that can be accessed within Steps
+
+Module Summary:
+    Core Components:
+        1. Workflows: Define Events + Jobs
+        2. Jobs: Define Runners + Steps
+        3. Steps: Do the actual work
+
+    Events/Triggers:
+        1. Broad variety of events (repository-related & other)
+        2. Workflows have at least one (but possible more) events(s)
+
+    Runners:
+        1. Servers (machines) that execute that Jobs
+        2. Pre-defined Runners (with different OS) exist
+        3. You can also create custom Runners
+    
+    Workflow Execution:
+        1. Workflows are executed when their events are Triggered
+        2. GitHub provides detailed insights into job execution (+ logs)
+
+    Actions:
+        1. You can run shell commands
+        2. But you can also use pre-defined Actions (official, community, or custom)
