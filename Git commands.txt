@@ -17,6 +17,7 @@ git config --global user.email <"email">: Sets up new email
 git submodule add <submodule remote repository HTTPS link> <submodule directory name>: Creates a submodule directory and links it to specified remote repository
 git submodule init: Initializes the submodules
 git submodule update: Updates submodule to latest commit on PARENT REPO
+git submodule update --init --recursive: Reinitializes and updates all submodules recursively
 
 git add <file(s)>: Stages file(s) for next commit
 git add <directory>: Stages all files inside directory
